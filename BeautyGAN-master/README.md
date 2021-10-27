@@ -4,12 +4,19 @@
 
 BeautyGAN: Instance-level Facial Makeup Transfer with Deep Generative Adversarial Network
 
-Official Website：[http://liusi-group.com/projects/BeautyGAN](http://liusi-group.com/projects/BeautyGAN)
+
 
 
 Papers and data sets are provided, but there is no open source code, and no trained models are provided
 
 Recurring effect
+
+#### Before Alignment of the face
+
+![WhatsApp Image 2021-10-25 at 11 52 42 PM](https://user-images.githubusercontent.com/62153950/139117598-d3a23a85-d5ca-4a90-bfe4-dac04fc71df6.jpeg)
+
+
+#### After Alignment of the face
 
 ![](result.jpg)
 
