@@ -2,7 +2,7 @@ import { Link, Redirect } from "react-router-dom";
 import { auth, storage, firestore } from "./firebase";
 import { AuthContext } from "./AuthProvider";
 import { useContext, useEffect, useState } from "react";
-
+import PhotoCameraIcon from '@material-ui/icons/PhotoCamera';
 import VideoCard from "./VideoCard";
 import "./Home.css";
 
@@ -55,7 +55,7 @@ let Home = () => {
           <>
             <label for="file-input">
               <span class="material-icons-outlined toupload">
-                photo_camera
+                <PhotoCameraIcon/>
               </span>
             </label>
 

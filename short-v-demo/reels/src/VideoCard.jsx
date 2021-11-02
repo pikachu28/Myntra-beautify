@@ -1,6 +1,11 @@
 import { useContext, useEffect, useState, useRef } from "react";
 import { firestore } from "./firebase";
-
+import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
+import VideocamIcon from '@material-ui/icons/Videocam';
+import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
+import ChatBubbleOutlineIcon from '@material-ui/icons/ChatBubbleOutline';
+import MusicNoteIcon from '@material-ui/icons/MusicNote';
+import SendIcon from '@material-ui/icons/Send';
 import { AuthContext } from "./AuthProvider";
 import { Link } from "react-router-dom";
 
@@ -98,7 +103,7 @@ videos.forEach(video =>{
         <Link to="/profile" ><span class="material-icons-outlined" style={{
           cursor: "pointer", color: "white", fontSize: 34
         }} >
-          chevron_left
+          <ChevronLeftIcon/>
         </span></Link>
 
         <h2> <b> Reels</b> </h2>
@@ -106,7 +111,7 @@ videos.forEach(video =>{
         <span class="material-icons-outlined hide" style={{
           cursor: "pointer"
         }}>
-          videocam
+          <VideocamIcon/>
         </span>
       </div>
 
@@ -120,12 +125,12 @@ videos.forEach(video =>{
           }
       }
 
-      }>favorite_border</span>
+      }><FavoriteBorderIcon/></span>
       <span class="material-icons-outlined comment response-phone" style={{ color: "black" }} onClick={() => {
         if (boxOpen) setBoxOpen(false);
         else setBoxOpen(true);
       }}>
-        chat_bubble_outline
+        <ChatBubbleOutlineIcon/>
       </span>
       <span class="material-icons-outlined share response-phone" style={{ color: "black" }} onClick={() => {
 
@@ -140,14 +145,14 @@ videos.forEach(video =>{
         }
       }}
       >
-        send
+        <SendIcon/>
       </span>
 
       <p className="username" style={{ color: "black" }}>
         <b>{props.post.username}</b>
       </p>
       <p className="song" style={{ color: "black" }}>
-        <span class="material-icons-outlined">music_note</span>
+        <span class="material-icons-outlined"><MusicNoteIcon/></span>
         <marquee>{props.post.username} <br /> | Original Audio |</marquee>
       </p>
 
@@ -166,7 +171,7 @@ videos.forEach(video =>{
             {allComments.map((comment, index) => {
               return (
                 <div key={index}>
-                  <img className="img-home" src={comment.pic} />
+                  <img className="img-home" src={comment.pic} alt="comment" />
                   <div>
                     <p>
                       <b>{comment.username}</b>

@@ -30,7 +30,7 @@ let Profile = () => {
     <>
       {value ? (
         <div>
-          <img className="img-profile"src={value.photoURL}/>
+          <img className="img-profile" src={value.photoURL} alt="profile" />
           <p className="username-profile">{value.displayName}</p>
 
           <p className="ttpost" >Total Posts: {totalPosts}</p>
