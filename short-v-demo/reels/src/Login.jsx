@@ -37,7 +37,7 @@ let Login = () => {
       {value? <Redirect to="/home" /> : ""}
 
       <img src="https://img.icons8.com/ios/500/instagram-reel.png" alt="" className="app_logo"/>
-        <h1 className ="freels">Freels</h1>
+        <h1 className ="freels">ShareIt</h1>
 
       <button
         onClick={signInWithGoogle}
@@ -46,7 +46,7 @@ let Login = () => {
       >
         Login With Google
       </button>
-      <footer style={{}}>  Freels - Post Freely Your Emotions<br /> It's a Clone of the Instagram Reels <br />
+      <footer style={{}}>  Shareit - Post Freely Your Emotions/Experience/Fashion knowledge <br />
       </footer>
     </div>
   );
