@@ -32,4 +32,9 @@ After logging in they can view what all users have already shared, as well as th
 <img width="741" src="https://user-images.githubusercontent.com/54024297/140635891-73cf2225-5961-418a-8264-290d4484e64c.png">
 <img width="741" src="https://user-images.githubusercontent.com/54024297/140636089-a64f20e5-fe5d-457e-a7b7-ee50638e564d.png">
 
+## POP-UP
+Just after the user login the pop up with a message that Myntra is a diverse fashion brand will come ensuring the user undergo trustful and stress-free shopping 
+
+### Demo
+<img width="741" src="https://user-images.githubusercontent.com/54024297/140636156-8ffbb2fb-e867-4ca1-b683-0a432903b176.png">
 
