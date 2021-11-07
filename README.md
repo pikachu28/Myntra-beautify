@@ -18,3 +18,18 @@ One of the major issue in Online Beauty Products Shopping is finding the right f
 ### Results
 
 <img width="741" alt="Screenshot 2021-11-07 at 10 56 38 AM" src="https://user-images.githubusercontent.com/62153950/140633565-478942f1-f177-4156-a447-7308b4f23321.png">
+
+## ShareIt - short video upload
+
+We want the customer visiting Myntra's website to feel that it is much more than a venue to come, watch, buy and leave. In order to make customers feel more interactive about Myntra's platform we propose a short video sharing feature where people can share information about fashion, self love, or they can even share how wonderful the shopping experience is at Myntra. 
+
+After logging in they can view what all users have already shared, as well as they can support their content by liking it or sharing it. Not only this, users can upload their own videos with just a click of a button. To provide transparency on who is using the feature you can easily look on profile of others and yours too 
+
+#### [How to run the Code?](https://github.com/pikachu28/Myntra-beautify/tree/main/short-v-demo/reels)
+
+### Demo
+<!-- ![Screenshot (14)](https://user-images.githubusercontent.com/54024297/140635891-73cf2225-5961-418a-8264-290d4484e64c.png) -->
+<img width="741" src="https://user-images.githubusercontent.com/54024297/140635891-73cf2225-5961-418a-8264-290d4484e64c.png">
+<img width="741" src="https://user-images.githubusercontent.com/54024297/140636089-a64f20e5-fe5d-457e-a7b7-ee50638e564d.png">
+
+
